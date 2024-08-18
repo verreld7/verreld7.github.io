@@ -21,7 +21,6 @@ github_username: "verreld7"
 theme: "minima"
 
 #rss: rss
-markdown: kramdown
 
 kramdown:
   syntax_highlighter_opts:
