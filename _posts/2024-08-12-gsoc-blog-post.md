@@ -14,30 +14,22 @@ Developed new element classes specifically designed to handle tropical polynomia
 ### Graph of Univariate Tropical Polynomials
 We developed and implemented an algorithm to find the tropical roots of univariate tropical polynomials. These roots allow us to determine the tropical polynomial function, which is essentially a piecewise linear function. Using these result, we can then plot the graph of the tropical polynomial. Here are a few examples of the graph:
 
-<div align="center">
-  <img src="https://github.com/verreld7/verreld7.github.io/blob/main/images/polyplot1.png" alt="Your image description" width="50%"/>
-  <p>Figure 1: $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) </p>
-</div>
+|![](../images/polyplot1.png) Figure 1: $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) | ![](../images/polyplot2.png) Figure 2: $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra) |
+|:-:|:-:|
 
-<div align="center">
-  <img src="https://github.com/verreld7/verreld7.github.io/blob/main/images/polyplot2.png" alt="Your image description" width="50%"/>
-  <p>Figure 2: $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra) </p>
-</div>
-
-[Image](graphic.html)
-
-<iframe src="images/graphic.html" style="border:none; width:100%; height:500px;"></iframe>
-
-
-```python
-print(f"test")
-```
 
 ### Tropical Variety
 A tropical variety is defined as the corner locus of a tropical polynomial function, consisting of all points in `\RR^n` where the minimum (or maximum) of the function is attained at least twice. We developed and implemented an algorithm to compute the tropical variety for any multivariate tropical polynomial, with the ability to visualize these varieties in the cases of two and three variables. For dimensions greater than three, the result is also referred to as a tropical hypersurface.
 
 #### Tropical Curve
 A tropical curve is a piecewise linear structure in `R^2` which can be seen as "tropical roots" of tropical polynomials in two variables.  For these polynomials, we can also plot their graphs, which consist of multiple surfaces in three dimensions. Some examples of these are:
+
+|![](../images/tcurve1.png) Figure 3: Tropical Curve of $-2x^2 + -1x + \frac{1}{2}y$ |![](../images/mpolyplot3d1.png)  Figure 4: Graph of $-2x^2 + -1x + \frac{1}{2}y$ |
+|:-:|:-:|
+
+|![test](../images/tcurve2.png) Figure 3: Tropical Curve of $-2x^2 + -1x + \frac{1}{2}y$ |![](../images/mpolyplot3d2.png)  Figure 4: Graph of $-2x^2 + -1x + \frac{1}{2}y$ |
+|:-:|:-:|
+
 
 #### Tropical Surface
 A tropical surface is a piecewise linear structure in `R^2` which can be seen as "tropical roots" of tropical polynomials in three variables.  The tropical surface consists of planar regions and facets, referred to as cells. Some examples of these are:
