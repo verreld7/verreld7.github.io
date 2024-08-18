@@ -25,6 +25,10 @@ We developed and implemented an algorithm to find the tropical roots of univaria
 |:-:|:-:|
 | Figure 1. Graph of $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) | Figure 2. Graph of $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra)|
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="../images/tcurve1.png" alt="First Image" style="width: 45%;"/>
+  <img src="../images/tcurve1.png" alt="Second Image" style="width: 45%;"/>
+</div>
 
 ### Tropical Variety
 A tropical variety is defined as the corner locus of a tropical polynomial function, consisting of all points in `\RR^n` where the minimum (or maximum) of the function is attained at least twice. We developed and implemented an algorithm to compute the tropical variety for any multivariate tropical polynomial, with the ability to visualize these varieties in the cases of two and three variables. For dimensions greater than three, the result is also referred to as a tropical hypersurface.
