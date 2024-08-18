@@ -1,3 +1,8 @@
+<head>
+  <!-- Other head elements -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
 # Final Report | GSoC 2024 @SageMath
 
 
@@ -7,7 +12,7 @@ Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials an
 A tropical polynomial is a polynomial whose coefficients come from a tropical semiring. Tropical polynomials define piecewise linear functions, which are often simpler to analyze compared to general non-linear functions. These polynomials form a commutative semiring, where operations are performed using (tropical)
 addition and multiplication.
 
-A tropical hypersurface is the set of points in $\mathbb{R}^n$ where the tropical polynomial function reaches its minimum (or maximum) value at least twice. In the univariate case, these points are referred to as tropical roots. For tropical polynomials in three or fewer variables, we can provide visualizations of these hypersurfaces, which give a clearer view of their geometric structure.
+**A tropical hypersurface** is the set of points in $\mathbb{R}^n$ where the tropical polynomial function reaches its minimum (or maximum) value at least twice. In the univariate case, these points are referred to as tropical roots. For tropical polynomials in three or fewer variables, we can provide visualizations of these hypersurfaces, which give a clearer view of their geometric structure.
 
 ## Work Report
 
