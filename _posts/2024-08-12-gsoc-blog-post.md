@@ -14,6 +14,21 @@ Developed new element classes specifically designed to handle tropical polynomia
 ### Graph of Univariate Tropical Polynomials
 We developed and implemented an algorithm to find the tropical roots of univariate tropical polynomials. These roots allow us to determine the tropical polynomial function, which is essentially a piecewise linear function. Using these result, we can then plot the graph of the tropical polynomial. Here are a few examples of the graph:
 
+<div align="center">
+  <img src="https://github.com/verreld7/verreld7.github.io/blob/main/images/polyplot1.png" alt="Your image description" width="50%"/>
+  <p>Figure 1: $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) </p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/verreld7/verreld7.github.io/blob/main/images/polyplot2.png" alt="Your image description" width="50%"/>
+  <p>Figure 2: $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra) </p>
+</div>
+
+[Image](graphic.html)
+
+<iframe src="images/graphic.html" style="border:none; width:100%; height:500px;"></iframe>
+
+
 ```python
 print(f"test")
 ```
