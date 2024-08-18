@@ -26,7 +26,7 @@ We developed and implemented an algorithm to find the tropical roots of univaria
 | Figure 1. Graph of $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) | Figure 2. Graph of $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra)|
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="../images/tcurve1.png" alt="First Image" style="width: 45%;"/>
+  <img src="https://github.com/verreld7/verreld7.github.io/blob/6d8cff46e9b0852d254acf82aae7bf252bf978e2/images/polyplot1.png" alt="First Image" style="width: 45%;"/>
   <img src="../images/tcurve1.png" alt="Second Image" style="width: 45%;"/>
 </div>
 
