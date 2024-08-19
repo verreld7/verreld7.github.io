@@ -36,12 +36,6 @@ plugins:
 toc:
   min_level: 2          # Minimum heading level to include (h2)
   max_level: 6          # Maximum heading level to include (h6)
-  no_toc_section_class: 'no_toc_section'
-  list_class: 'toc-list'
-  sublist_class: 'toc-sublist'
-  item_class: 'toc-item'
-  no_toc_list_class: 'no_toc_list'
-  no_toc_item_class: 'no_toc_item'
 
 titles_from_headings:
   strip_title: true
