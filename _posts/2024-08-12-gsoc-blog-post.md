@@ -1,6 +1,6 @@
 # GSoC 2024 with SageMath: Final Report
 
-
+* TOC
 {:toc}
 
 ## Overview
