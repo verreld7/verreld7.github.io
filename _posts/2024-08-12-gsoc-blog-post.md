@@ -8,7 +8,7 @@
     {:toc}
   </div>
 </div>
-
+<script src="{{ 'toc-toggle.js' | relative_url }}"></script>
 
 ## Overview
 Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials and its Corresponding Tropical Hypersurfaces](https://summerofcode.withgoogle.com/myprojects/details/j1yAryTd). 
