@@ -1,5 +1,7 @@
 # GSoC 2024 with SageMath: Final Report
 
+* TOC
+{:toc}
 
 ## Overview
 Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials and its Corresponding Tropical Hypersurfaces](https://summerofcode.withgoogle.com/myprojects/details/j1yAryTd). 
@@ -57,7 +59,9 @@ Dual subdivision is a subdivision of the Newton polygon of tropical polynomials.
 |Figure 11. Dual Subdivision of $2x^2 + 0xy + 2y^2 + 0x + -1y + 3$|Figure 12. Dual Subdivion of $0x^2 + 0xyz + 0x + 0y + 0z + 1$|
 
 ### Weight Vectors
-As seen before, a tropical curve consists of line segments and half-lines, referred to as edges. These edges meet at a vertices, where the balancing condition is satisfied. This balancing condition ensures that the sum of the outgoing slopes at each vertex equals zero, reflecting the equilibrium. Continuing from that, we have successfully extended the concept to tropical surfaces, where the sum of the outgoing normal vectors with respect to a line equals zero.
+As seen before, a tropical curve consists of line segments and half-lines, referred to as edges. These edges meet at a vertices, where the balancing condition is satisfied. This balancing condition ensures that the sum of the outgoing slopes at each vertex equals zero, reflecting the equilibrium. Continuing from that, we have successfully extended the concept to tropical surfaces, where the sum of the outgoing normal vectors with respect to a line equals zero. Some examples are:
+
+
 
 ### Potential Future Improvements
 * Generalizing the concept of weight vectors to tropical varieties of dimension $n \geq 4$
