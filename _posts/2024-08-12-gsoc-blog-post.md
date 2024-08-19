@@ -16,7 +16,7 @@ List of relevant issues and pull requests:
 Developed new element classes specifically designed to handle tropical polynomials, building on the existing tropical semiring implementation in SageMath. We've created a separate class for univariate and multivariate cases, along with a parent class that encapsulates the semiring structure. These classes support operations like (tropical) addition, multiplication, and exponentiation (with scalar).
 
 ### Graph of Univariate Tropical Polynomials
-We developed and implemented an algorithm to find the tropical roots of univariate tropical polynomials. These roots allow us to determine the tropical polynomial function, which is essentially a piecewise linear function. Using these result, we can then plot the graph of the tropical polynomial. Here are a few examples of the graph:
+We developed and implemented an algorithm to find the tropical roots of univariate tropical polynomials. These roots allow us to determine the tropical polynomial function, which is essentially a piecewise linear function. Using these result, we can then plot the graph of the tropical polynomial. The univariate case also can handle interpolation of points. A few examples of the graph:
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/polyplot1.png) | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/polyplot2.png)  |
 |:-:|:-:|
@@ -64,7 +64,8 @@ As seen before, a tropical curve consists of line segments and half-lines, refer
 
 
 ### Final Thoughts
-TBA
+I concentrated on implementing a new class for tropical polynomials, which involved developing a range of methods for its functionality and visualization. Creating this class and implementing the complex algorithms for various methods was quite challenging. However, the satisfaction of seeing the expected results and the intricate, fascinating graphs made the effort worthwhile.
 
+I would like to express my deepest gratitude to my mentor, Travis Scrimshaw. His support and guidance were important during my time on the project. His assistance was invaluable in overcoming obstacles and making meaningful progress. Thank you so much!
 
 
