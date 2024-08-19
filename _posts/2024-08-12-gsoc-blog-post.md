@@ -1,15 +1,5 @@
 # GSoC 2024 with SageMath: Final Report
 
-<div id="toc-container">
-  <h2 id="toc-title">Table of Contents</h2>
-  <button id="toc-toggle">Hide</button>
-  <div id="toc-content">
-    * TOC
-    {:toc}
-  </div>
-</div>
-<script src="{{ 'toc-toggle.js' | relative_url }}"></script>
-
 ## Overview
 Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials and its Corresponding Tropical Hypersurfaces](https://summerofcode.withgoogle.com/myprojects/details/j1yAryTd). 
 
