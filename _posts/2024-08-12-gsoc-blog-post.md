@@ -1,13 +1,10 @@
-# Final Report | GSoC 2024 @SageMath
+# GSoC 2024 with SageMath: Final Report
 
 
 ## Overview
 Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials and its Corresponding Tropical Hypersurfaces](https://summerofcode.withgoogle.com/myprojects/details/j1yAryTd). 
 
-A tropical polynomial is a polynomial whose coefficients come from a tropical semiring. Tropical polynomials define piecewise linear functions, which are often simpler to analyze compared to general non-linear functions. These polynomials form a commutative semiring, where operations are performed using (tropical)
-addition and multiplication.
-
-A tropical hypersurface is the set of points in $\mathbb{R}^n$ where the tropical polynomial function reaches its minimum (or maximum) value at least twice. In the univariate case, these points are referred to as tropical roots. For tropical polynomials in three or fewer variables, we can provide visualizations of these hypersurfaces, which give a clearer view of their geometric structure.
+As GSoC 2024 draws to a close, it's time to finalize the report. My primary task was to implementing tropical polynomials of SageMath, where I focused on creating new classes that extend polynomial implementation to support coeffcient from tropical semirings, along with several method to handle its functionality.  Additionally, I implemented a class for tropical varieties, which facilitates the visualization of tropical hypersurfaces for multivariate tropical polynomials. This geometric structure is a piecewise-linear counterparts to classical algebraic hypersurfaces.
 
 ## Work Report
 
@@ -48,16 +45,20 @@ A tropical surface is a piecewise linear structure in $\mathbb{R}^2$ which can b
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tsurface1.png) | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tsurface2.png) |
 |:-:|:-:|
-|Figure 8. Tropical Surface of $0x + 0y + 0z$|Figure 4. Tropical Surface of $0x^2 + 0xyz + 0x + 0y + 0z + 1$|
+|Figure 9. Tropical Surface of $0x + 0y + 0z$|Figure 10. Tropical Surface of $0x^2 + 0xyz + 0x + 0y + 0z + 1$|
 
 ### Dual Subdivision
 Dual subdivision is a subdivision of the Newton polygon of tropical polynomials. This subdivision is *dual* in the sense that each face of the subdivision corresponds to a vertex of the tropical curve, and each edge of the subdivision corresponds to an edge of the tropical curve. This analogy extends to tropical varieties in higher dimensions, where the dual subdivision similarly reflects the structure of the variety. Some examples of these are:
 
+|![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/dual1.png) | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/dual2.png) |
+|:-:|:-:|
+|Figure 11. Dual Subdivision of $2x^2 + 0xy + 2y^2 + 0x + -1y + 3$|Figure 12. Dual Subdivion of $0x^2 + 0xyz + 0x + 0y + 0z + 1$|
+
 ### Weight Vectors
-As seen before, a tropical curve consists of line segments and half-lines, referred to as edges. These edges meet at a vertices, where the balancing condition is satisfied. This balancing condition ensures that the sum of the outgoing slopes at each vertex is zero, reflecting the equilibrium.
+As seen before, a tropical curve consists of line segments and half-lines, referred to as edges. These edges meet at a vertices, where the balancing condition is satisfied. This balancing condition ensures that the sum of the outgoing slopes at each vertex equals zero, reflecting the equilibrium. Continuing from that, we have successfully extended the concept to tropical surfaces, where the sum of the outgoing normal vectors with respect to a line equals zero.
 
 ### Potential Future Improvements
-* We have successfully implemented the concept of weight vectors for tropical curves and extended it to tropical surfaces. However, generalizing this concept to tropical varieties of dimension $n \geq 4$ remains open and requires further exploration
+* Generalizing the concept of weight vectors to tropical varieties of dimension $n \geq 4$
 * Refactor polynomial classes for the semiring polynomials
 * Extending the tropical polynomial semiring to Laurent polynomial ring
 
