@@ -1,9 +1,7 @@
 # GSoC 2024 with SageMath: Final Report
 
-<div>
-  * TOC
-  {:toc}
-</div>
+
+{:toc}
 
 ## Overview
 Google Summer of Code (GSoC) Project: [Implementation of Tropical Polynomials and its Corresponding Tropical Hypersurfaces](https://summerofcode.withgoogle.com/myprojects/details/j1yAryTd). 
