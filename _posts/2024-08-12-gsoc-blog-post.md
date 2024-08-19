@@ -27,7 +27,7 @@ We developed and implemented an algorithm to find the tropical roots of univaria
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/polyplot3.png) | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/polyplot4.png)  |
 |:-:|:-:|
-| Figure 1. Graph of $3x^3 + 1x^2 + 2x + 4$ (max-plus algebra) | Figure 2. Graph of $3x^3 + 1x^2 + 2x + 4$ (min-plus algebra)|
+| Figure 3. Graph of $-1x^5 + \frac{1}{3}x^4 + 1x^2 + \frac{1}{3}x$ (max-plus algebra) | Figure 4. Graph of $-1x^5 + \frac{1}{3}x^4 + 1x^2 + \frac{1}{3}x$  (min-plus algebra)|
 
 ### Tropical Variety
 A tropical variety is defined as the corner locus of a tropical polynomial function, consisting of all points in $\mathbb{R}^n$ where the minimum (or maximum) of the function is attained at least twice. We developed and implemented an algorithm to compute the tropical variety for any multivariate tropical polynomial, with the ability to visualize these varieties in the cases of two and three variables. For dimensions greater than three, the result is also referred to as a tropical hypersurface.
@@ -37,18 +37,18 @@ A tropical curve is a piecewise linear structure in $\mathbb{R}^2$ which can be 
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tcurve1.png)  | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/mpolyplot3d1.png)   |
 |:-:|:-:|
-|Figure 3. Tropical Curve of $-2x^2 + -1x + \frac{1}{2}y$| Figure 4. Graph of $-2x^2 + -1x + \frac{1}{2}y$ |
+|Figure 5. Tropical Curve of $-2x^2 + -1x + \frac{1}{2}y$| Figure 6. Graph of $-2x^2 + -1x + \frac{1}{2}y$ |
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tcurve2.png)  |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/mpolyplot3d2.png)   |
 |:-:|:-:|
-|Figure 5: Tropical Curve of $-2x^2 + -1x + \frac{1}{2}y$ | Figure 6: Graph of $-2x^2 + -1x + \frac{1}{2}y$ |
+|Figure 7. Tropical Curve of $2x^2 + 0xy + 2y^2 + 0x + -1y + 3$ | Figure 8. Graph of $2x^2 + 0xy + 2y^2 + 0x + -1y + 3$ |
 
 #### Tropical Surface
 A tropical surface is a piecewise linear structure in $\mathbb{R}^2$ which can be seen as *tropical roots* of tropical polynomials in three variables.  The tropical surface consists of planar regions and facets, referred to as cells. Some examples of these are:
 
 |![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tsurface1.png) | ![](https://raw.githubusercontent.com/verreld7/verreld7.github.io/main/images/tsurface2.png) |
 |:-:|:-:|
-|Figure 3. Tropical Surface of $x + y + z$|Figure 4. Tropical Surface of $-x^2 + xyz + x + y + z + 1$|
+|Figure 8. Tropical Surface of $0x + 0y + 0z$|Figure 4. Tropical Surface of $0x^2 + 0xyz + 0x + 0y + 0z + 1$|
 
 ### Dual Subdivision
 Dual subdivision is a subdivision of the Newton polygon of tropical polynomials. This subdivision is *dual* in the sense that each face of the subdivision corresponds to a vertex of the tropical curve, and each edge of the subdivision corresponds to an edge of the tropical curve. This analogy extends to tropical varieties in higher dimensions, where the dual subdivision similarly reflects the structure of the variety. Some examples of these are:
